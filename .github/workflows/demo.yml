@@ -1,0 +1,8 @@
+name: DemoWorkflow
+on: workflow_dispatch
+jobs:
+  calculate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print to console
+        run: echo Hello GitHab Actions!
